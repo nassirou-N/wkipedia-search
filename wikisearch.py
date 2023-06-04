@@ -1,6 +1,8 @@
 import wikipedia
 
-query = wikipedia.page("Machine learnig")
+research = input("research\n")
+
+query = wikipedia.page(research)
 
 print(query.summary)
 
